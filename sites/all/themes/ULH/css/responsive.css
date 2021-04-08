@@ -1,0 +1,129 @@
+@media screen and (min-width: 1051px) {
+	.accordion-menu-2{
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	#header{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#header, #main, #footer{
+		width: 96% !important;
+	}
+	#header, #page-wrapper, #footer{
+		min-width: 320px !important;
+	}
+	#header .section, #featured .section, #sidebar-first, #right-side, #content-full-width{
+		width: 100% !important;
+	}
+	#right-side{
+		margin-left: 0 !important;
+	}
+	#right-side #content{
+		width: 66% !important;
+	}
+	#right-side #sidebar-second{
+		width: 33% !important;
+		margin-left: 1% !important;
+	}
+	
+	.view-slideshow .blue_banner{
+		width: 36% !important;
+	}
+	.view-slideshow .flexslider{
+		width: 64% !important;
+	}
+	.flexslider.slideshow img{
+		width: 100%;
+		height: auto;
+	}
+	
+	#header .section{
+		margin-bottom: 10px;
+	}
+	
+	#UL_header, .block-accordion-menu>h2, .block-accordion-menu .accordion-menu-wrapper{
+		display: none;
+	}
+	h2.for_mobiles{
+		display: block !important;
+	}
+	#block-block-1{
+		display: none;
+	}
+	body.page-node-4 #block-block-1{
+		display: true;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#right-side, #right-side #content, #right-side #sidebar-second{
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	#content-full-width .view ul li.CTA, .view.view-bottom-homepage-ctas ul li.CTA, .view.view-undergraduate-studies-ctas ul li.CTA{
+		width: 99% !important;
+		margin-left: 0 !important;
+		margin-top: 10px !important;
+	}
+	#content-full-width .view ul li.CTA .views-field-field-image{
+		width: 15%;
+	}
+	#content-full-width .view ul li.CTA .views-field-field-body-short{
+		width: 70%;
+	}
+	.view-bottom-homepage-ctas .views-field-field-image{
+		width: 20% !important;
+	}
+	.view-bottom-homepage-ctas .views-field-title, .view-bottom-homepage-ctas .views-field-field-body-short{
+		width: 70% !important;
+		margin-left: 2% !important;
+		margin-right: 2% !important;
+	}
+	#block-views-publications-block a{
+		margin-left: 5px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#content-full-width .view ul li.CTA .views-field-field-image{
+		width: 25%;
+	}
+	#content-full-width .view ul li.CTA .views-field-field-body-short{
+		width: 60%;
+	}
+	.view-bottom-homepage-ctas .views-field-field-image{
+		width: 35% !important;
+	}
+	.view-bottom-homepage-ctas .views-field-title, .view-bottom-homepage-ctas .views-field-field-body-short{
+		width: 55% !important;
+	}
+	#block-views-testimonials-block .details{
+		width: 98% !important;
+		margin-left: 1%;
+	}
+	.prospective_studies_lists .row .half{
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	.node-events .details, .node-news .details{
+		clear: both;
+	}
+	.row.ISSUU.for_PCs{
+		display: none !important;
+	}
+	.row.ISSUU.for_mobiles{
+		display: block !important;
+	}
+	#footer .row.logos{
+		text-align: center;
+	}
+	#footer .row.logos .IDF, #footer .row.logos img{
+		float: none !important;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
